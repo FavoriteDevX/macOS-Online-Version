@@ -1,8 +1,9 @@
 
-<img width="2048" height="1536" alt="da9gl56-1be1a52f-05e8-43b2-97c2-cfa2c61c34b4" src="https://github.com/user-attachments/assets/92008feb-b02c-42bf-8726-988cf1b266e6" /
+<img width="2048" height="1536" alt="da9gl56-1be1a52f-05e8-43b2-97c2-cfa2c61c34b4" src="https://github.com/user-attachments/assets/f583bb57-a060-4016-ab8a-4b8c24cf098c" />
 
 
-MacOS - Free Version to Edit and view
+
+                                         MacOS - Free Version to Edit and view
 
 After almost 1 entire month of searches, I finally finished macOS online version. You can use this repositorie for:
 
