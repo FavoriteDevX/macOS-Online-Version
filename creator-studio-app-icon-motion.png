@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="mbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#540a3e"/>
+      <stop offset="100%" stop-color="#2a0026"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6ec7"/>
+      <stop offset="50%" stop-color="#ff1493"/>
+      <stop offset="100%" stop-color="#c71585"/>
+    </linearGradient>
+    <radialGradient id="mball" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#ffb6db"/>
+      <stop offset="80%" stop-color="#e0218a"/>
+      <stop offset="100%" stop-color="#8b0051"/>
+    </radialGradient>
+    <filter id="msh" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="115" fill="url(#mbg)"/>
+  <g filter="url(#msh)">
+    <!-- Arch ribbon -->
+    <path d="M 120 400 C 110 320 120 180 230 135 C 290 110 350 160 380 230" fill="none" stroke="url(#ribbon)" stroke-width="48" stroke-linecap="round"/>
+    <path d="M 120 400 C 110 320 120 180 230 135" fill="none" stroke="#ffa8dc" stroke-width="12" stroke-linecap="round" opacity="0.7"/>
+    <!-- Loop / Curve to the ball -->
+    <path d="M 380 230 C 395 265 410 340 375 390" fill="none" stroke="url(#ribbon)" stroke-width="42" stroke-linecap="round"/>
+    <!-- Sphere -->
+    <circle cx="390" cy="200" r="54" fill="url(#mball)"/>
+  </g>
+</svg>

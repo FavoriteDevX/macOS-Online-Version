@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .wp-sonoma {
+    background: radial-gradient(circle at 80% 20%, #ff8a3d 0%, transparent 40%),
+                radial-gradient(circle at 20% 80%, #2b2f77 0%, transparent 50%),
+                linear-gradient(135deg, #1b2050 0%, #682d6b 40%, #c44d71 70%, #f69454 100%);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .wp-sequoia {
+    background: radial-gradient(circle at 75% 25%, #e2b04c 0%, transparent 45%),
+                radial-gradient(circle at 15% 85%, #133a25 0%, transparent 50%),
+                linear-gradient(135deg, #0e2417 0%, #1e4d35 45%, #698246 75%, #caa14c 100%);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .wp-bigsur {
+    background: radial-gradient(circle at 80% 20%, #ffc078 0%, transparent 35%),
+                radial-gradient(circle at 20% 75%, #052652 0%, transparent 45%),
+                linear-gradient(135deg, #063162 0%, #0d5ea6 35%, #2a9bd6 70%, #f99f66 100%);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .wp-monterey {
+    background: radial-gradient(circle at 70% 30%, #e85d75 0%, transparent 40%),
+                radial-gradient(circle at 20% 70%, #1c1a52 0%, transparent 45%),
+                linear-gradient(135deg, #13143c 0%, #46256f 35%, #973d84 70%, #f06a6b 100%);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .wp-mojave {
+    background: radial-gradient(circle at 85% 15%, #f28e2b 0%, transparent 40%),
+                radial-gradient(circle at 15% 85%, #0d0f1a 0%, transparent 50%),
+                linear-gradient(135deg, #0d0f18 0%, #231b35 35%, #4e223d 70%, #d46328 100%);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .wp-graphite {
+    background: radial-gradient(circle at 50% 30%, #3a3b40 0%, #1a1b1e 70%, #111215 100%);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .macos-window-shadow {
+    box-shadow: 0 24px 50px -12px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.12);
+  }
+
+  .macos-window-shadow-focused {
+    box-shadow: 0 30px 65px -12px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.22);
+  }
+
+  .macos-dock-shadow {
+    box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.35), inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+  }
+}
+
+/* Custom scrollbars like macOS */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 120, 120, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 120, 120, 0.55);
+}
+
