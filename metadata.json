@@ -1,0 +1,6 @@
+{
+  "name": "macOS Web",
+  "description": "An authentic, fully functional macOS desktop experience featuring genuine Apple app icons, upward-magnifying Dock, interactive window management, and native-style applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
