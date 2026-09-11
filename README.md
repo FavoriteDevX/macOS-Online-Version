@@ -20,5 +20,5 @@ Here's how to view it
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-(you scrolled so down and your pickaxe broke, here's a new one lol)
+(you scrolled so much down and your pickaxe broke, here's a new one lol)
 <img width="160" height="160" alt="Diamond_Pickaxe_JE3_BE3" src="https://github.com/user-attachments/assets/f4b3bbd6-01e9-416e-9ea6-54cf40f7be4a" />
