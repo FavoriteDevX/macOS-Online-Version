@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { motion, useMotionValue, useSpring, useTransform } from 'motion/react';
-import { AppDefinition, WindowState } from '../types';
-import { APPS } from '../data/apps';
+import { AppDefinition, WindowState } from './types';
+import { APPS } from './apps';
 
 interface DockProps {
   openWindows: WindowState[];
