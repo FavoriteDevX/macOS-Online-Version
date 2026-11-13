@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { ExternalLink } from 'lucide-react';
-import { WindowState } from '../types';
-import { APP_MAP } from '../data/apps';
+import { WindowState } from './types';
+import { APP_MAP } from '../apps';
 
 interface WindowFrameProps {
   key?: React.Key;
