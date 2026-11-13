@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import MenuBar from './components/MenuBar';
-import Dock from './components/Dock';
-import WindowFrame from './components/WindowFrame';
-import DesktopIcons from './components/DesktopIcons';
+import MenuBar from './MenuBar';
+import Dock from './Dock';
+import WindowFrame from './WindowFrame';
+import DesktopIcons from './DesktopIcons';
 import { WindowState } from './types';
-import { APP_MAP, APPS } from './data/apps';
-import { WALLPAPERS, WallpaperOption } from './data/wallpapers';
+import { APP_MAP, APPS } from './apps';
+import { WALLPAPERS, WallpaperOption } from './wallpapers';
 
 // Sub-apps
 import FinderApp from './components/apps/FinderApp';
